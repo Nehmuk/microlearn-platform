@@ -107,7 +107,7 @@ microlearn-platform/
 - Git installed
 
 ### Backend Setup
-bash
+```bash
 # 1. Clone the repository
 git clone https://github.com/Nehmuk/microlearn-platform.git
 
@@ -132,22 +132,23 @@ python manage.py createsuperuser
 
 # 8. Start Django server
 python manage.py runserver
-
+```
 
 ### Frontend Setup
-bash
+```bash
 # 1. Install Node dependencies
 npm install
 
 # 2. Start React development server
 npm run dev
-
+```
 
 ### Access the Application
+```
 Frontend  →  http://localhost:5173
 Backend   →  http://localhost:8000
 Admin     →  http://localhost:8000/admin
-
+```
 
 <br>
 
